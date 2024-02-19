@@ -1,0 +1,88 @@
+html,
+body {
+  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  /* Base Style */
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  color: #373a3c;
+  scroll-behavior: smooth;
+}
+
+.btn-outline-gray {
+  border-color: #dddddd;
+}
+
+.bg-dark-gray {
+  background-color: #373a3c;
+}
+
+.navbar-brand-resize {
+  font-size: 30px;
+}
+
+.fs-xs-3 {
+  font-size: 30px;
+}
+
+.fs-xs-5 {
+  font-size: 20px;
+}
+
+.fs-xs-6 {
+  font-size: 16px;
+}
+
+.fs-7 {
+  font-size: 13px;
+}
+
+.ff-lobster {
+  font-family: "Lobster", sans-serif;
+}
+
+.text-dark-gray {
+  color: #373a3c;
+}
+
+.carousel-btn:hover {
+  background-color: #373a3c;
+}
+
+.carousel-btn-active {
+  background-color: #373a3c;
+}
+
+@media (281px <= width) {
+  .navbar-brand-resize {
+    font-size: 37px;
+  }
+}
+
+@media (992px <= width) {
+  .justify-content-lg-start {
+    text-align: start;
+  }
+  .fs-lg-1 {
+    font-size: 40px;
+  }
+
+  .fs-lg-3 {
+    font-size: 30px;
+  }
+
+  .fs-lg-4 {
+    font-size: 24px;
+  }
+
+  .fs-lg-5 {
+    font-size: 20px;
+  }
+
+  .fs-lg-6 {
+    font-size: 16px;
+  }
+}
